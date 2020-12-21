@@ -31,13 +31,26 @@ export default function Films() {
     return (
         <div className="container-fluid mx-auto ">
             {/* <button onClick={showFilm()}>test</button> */}
-            <div className="row  text-center mt-5">
+            <div className="row text-center mt-5">
                 <div className=" card border-primary mb-3 mx-5" style={{ width: 350 }}>
                     <div className="card-header">{film.map((current) => (
                         current.title
                     ))}</div>
                     <div className="card-body text-primary">
                         <p className="card-title">{film.map((current, id) => (
+                            current.releaseYear
+                        ))}</p>
+                        <p className="card-text">{film.map((current) => (
+                            current.description
+                        ))}</p>
+                    </div>
+                </div>
+                <div className="card border-primary mb-3 mx-5" style={{ width: 350 }}>
+                    <div className="card-header">{film.map((current) => (
+                        current.title
+                    ))}</div>
+                    <div className="card-body text-primary">
+                        <p className="card-title">{film.map((current, index) => (
                             current.releaseYear
                         ))}</p>
                         <p className="card-text">{film.map((current) => (

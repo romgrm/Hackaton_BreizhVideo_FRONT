@@ -11,11 +11,12 @@ function App() {
   return (
     <>
     <Header />
+    <Home />
     <Switch>
       <Route path="/Events" component={Events} />
       <Route path="/Movies" component={Films} />
       <Route path="/Places" component={Village} />
-      <Route path="/" component={Home}/>
+      <Route path="/" component={Home/>
     </Switch>
     </>
   );
