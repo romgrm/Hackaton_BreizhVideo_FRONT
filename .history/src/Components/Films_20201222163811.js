@@ -22,7 +22,7 @@ export default function Films() {
     }, []);
 
     // Display film or not 
-
+    
     // function showFilm(display){
     //     if(display === false){
     //         setDisplay(display = !display)
@@ -33,6 +33,7 @@ export default function Films() {
 
     return (
         <div className="container-fluid mx-auto ">
+            {/* <button onClick={showFilm()}>test</button> */}
             <div className="row  text-center mt-5">
                 <div className=" card border-primary mb-3 mx-5" style={{ width: 350 }}>
                     <div className="card-header">{film.map((current) => (

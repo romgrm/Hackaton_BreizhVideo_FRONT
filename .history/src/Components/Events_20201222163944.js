@@ -33,7 +33,7 @@ export default function Events() {
                 <p className="card-text"> {event.map((current) =>( 
                 current.films.description
                          ))}</p>
-                <a href="/" className="btn btn-primary">Voter pour ce film</a>
+                <a href="#" className="btn btn-primary">Voter pour ce film</a>
             </div>
         </div>
         

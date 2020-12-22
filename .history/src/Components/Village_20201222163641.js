@@ -33,7 +33,7 @@ export default function Village() {
         setCreate(initialState)
     }
 
-        // POST _ Créer un village sans Form
+        // POST _ Créer un village
 
         // useEffect(() => {
         //     async function postData() {
@@ -61,7 +61,6 @@ export default function Village() {
         }, []);
 
         // // DELETE _ Supprimer village
-
         // const handleDelete = (event) => {
         //     event.preventDefault()
         //     axios.delete(`http://localhost:8080/Village/${id}`)
@@ -71,7 +70,7 @@ export default function Village() {
 
         return (
             <div>
-                <table className="table w-75 mx-auto mt-5">
+                <table className="table w-75">
                     <thead>
                         <tr>
                             <th scope="col">#</th>

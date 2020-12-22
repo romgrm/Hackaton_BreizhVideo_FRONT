@@ -33,7 +33,7 @@ export default function Village() {
         setCreate(initialState)
     }
 
-        // POST _ Créer un village sans Form
+        // POST _ Créer un village sans 
 
         // useEffect(() => {
         //     async function postData() {

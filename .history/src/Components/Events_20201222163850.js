@@ -19,21 +19,21 @@ export default function Events() {
     }, []);
 
     return (
-        <div className="card text-center w-50 my-5 mx-auto">
-            <div className="card-header">
+        <div class="card text-center w-50 my-5 mx-auto">
+            <div class="card-header">
                 {event.map((current) => (
                     <h1 key={current.id}> Passage à {current.representations.village.name}, le {current.representations.release_date}</h1>
                 ))}
             </div>
-            <div className="card-body">
-                <h5 className="card-title">Film 1 :&nbsp;
+            <div class="card-body">
+                <h5 class="card-title">Film 1 :&nbsp;
                 {event.map((current) =>( 
                 current.films.title
                          ))}</h5>
-                <p className="card-text"> {event.map((current) =>( 
+                <p class="card-text"> {event.map((current) =>( 
                 current.films.description
                          ))}</p>
-                <a href="/" className="btn btn-primary">Voter pour ce film</a>
+                <a href="#" class="btn btn-primary">Voter pour ce film</a>
             </div>
         </div>
         

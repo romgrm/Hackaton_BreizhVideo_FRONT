@@ -10,6 +10,8 @@ export default function Home() {
                 <img src={home} style={{ width: 500, height: 300, display: 'flex' }} className=" mx-auto mt-5 rounded" />
                 <Link className="btn btn-primary mt-5" type="button" to='/Events'>Voir les évènements</Link>
             </div>
+            <div className="">
+            </div>
         </div>
     )
 }
